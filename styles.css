@@ -40,6 +40,30 @@ body {
   body {
     grid-template-columns: 1fr;
   }
+
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .nav-bar > a {
+    font-size: 20px;
+    padding: 10px 5px;
+  }
+
+  article {
+    padding: 15px;
+  }
+
+  article > img {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
 }
 
 header {
